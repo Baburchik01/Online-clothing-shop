@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+/*	background: url(../images/fon2.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;*/
+/*	background: -webkit-linear-gradient(45deg, #50f2c4,#26d0e3,#757aff);
+	background: linear-gradient(45deg, #50f2c4,#26d0e3,#757aff);*/
+ background: #50F2C4;
+
+}
+/*.bg_img{
+	width: 700px;
+	margin-top: 50px;
+	margin-left: 90px;
+}*/
+.user {
+	width: 100px;
+	height: 100px;
+}
+.forgot_link {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #bababa;
+	font-weight: 700;
+	text-decoration: none;
+	transition: .2s;
+}
+.forgot_link:hover{
+	color: #838383;
+}
+.form-box{
+	width: 300px;
+	padding: 50px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	position: absolute;
+	box-shadow: -15px 53px 68px -9px rgba(0, 0, 0, 0.75);
+	border-top-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+	top: 4%;
+	left: 50%;
+	transform: translate(-50%);
+	background: #fff;
+	text-align: center;
+}
+.form-box h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 28px;
+}
+.form-box input[type="text"], .form-box input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	font-size: 16px;
+	border: none;
+	border-bottom: 2px solid #6856eb;
+	padding: 14px 15px;
+	width: 200px;
+	outline: none;
+	transition: 0.25s;
+}
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+	width: 250px;
+	border-color: #b44bd3;
+}
+.form-box input[type="submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #b44bd3;
+	width: 230px;
+	height: 30px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.form-box input[type="submit"]:hover {
+	background: #9a50dc;
+}
+/*@media only screen and (max-width: 1350px) {
+	.bg_img {
+		margin-left: 50px;
+		margin-top: 80px;
+		width: 550px;
+	}
+}
+@media only screen and (max-width: 1025px) {
+	.bg_img {
+		display: none;
+	}
+	body {
+		background: #455df9;
+	}
+	.form-box {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}*/

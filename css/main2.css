@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+#header {
+position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+background: #020024;
+}
+#body {
+	position: absolute;
+	width: 100%;
+	height: 1520px;
+	left: 0px;
+	top: 100px;
+  background: -webkit-linear-gradient(45deg, rgb(60, 109, 98), rgb(191, 238, 240));
+background: -moz-linear-gradient(45deg, rgb(60, 109, 98), rgb(191, 238, 240));
+background: linear-gradient(45deg, rgb(60, 109, 98), rgb(191, 238, 240));
+ /* background: linear-gradient(#AFD9F7,#F0F2FF);*/
+}
+#footer {
+	position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 1615px;
+background: #020024;
+}
+#header1 {
+position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 48px;
+background: gray;
+}
+#header2 {
+position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 530px;
+background: gray;
+}
+#header3 {
+position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 1020px;
+background: gray;
+}
+
+
+.i5{
+position: absolute;
+float: left;
+width: 230px;
+height: 300px;
+left: 50px;
+top: 150px;
+}
+.i6{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 300px;
+top: 150px;
+}
+.i7{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 550px;
+top: 150px;
+}
+.i8{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 800px;
+top: 150px;
+}
+.i9{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 1050px;
+top: 150px;
+}
+h1 {
+	color: #fff;
+	padding: 20px;
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  color: white;
+  padding: 20px;
+  font-size: 45px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  text-align: center;
+}
+.text {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 50px;
+top: 445px;
+background: #020024;
+color: white;
+}
+.text1 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 300px;
+top: 445px;
+background: #020024;
+color: white;
+}
+.text2 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 550px;
+top: 445px;
+background: #020024;
+color: white;
+}
+.text3 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 800px;
+top: 445px;
+background: #020024;
+color: white;
+}
+.text4 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 1050px;
+top: 445px;
+background: #020024;
+color: white;
+}
+.p1{
+position: absolute;
+float: left;
+width: 230px;
+height: 300px;
+left: 50px;
+top: 630px;
+}
+.p2{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 300px;
+top: 630px;
+}
+.p3{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 550px;
+top: 630px;
+}
+.p4{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 800px;
+top: 630px;
+}
+.p5{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 1050px;
+top: 630px;
+}
+.text5 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 50px;
+top: 930px;
+background: #020024;
+color: white;
+}
+.text6 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 300px;
+top: 930px;
+background: #020024;
+color: white;
+}
+.text7 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 550px;
+top: 930px;
+background: #020024;
+color: white;
+}
+.text8 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 800px;
+top: 930px;
+background: #020024;
+color: white;
+}
+.text9 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 1050px;
+top: 930px;
+background: #020024;
+color: white;
+}
+.p6{
+position: absolute;
+float: left;
+width: 230px;
+height: 300px;
+left: 50px;
+top: 1120px;
+}
+.p7{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 300px;
+top: 1120px;
+}
+.p8{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 550px;
+top: 1120px;
+}
+.p9{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 800px;
+top: 1120px;
+}
+.p10{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 1050px;
+top: 1120px;
+}
+.text10 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 50px;
+top: 1420px;
+background: #020024;
+color: white;
+}
+.text11 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 300px;
+top: 1420px;
+background: #020024;
+color: white;
+}
+.text12 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 550px;
+top: 1420px;
+background: #020024;
+color: white;
+}
+.text13 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 800px;
+top: 1420px;
+background: #020024;
+color: white;
+}
+.text14 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 1050px;
+top: 1420px;
+background: #020024;
+color: white;
+}
+h3 {
+  padding: 10px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+.top-menu {
+  margin: 0 60px;*/
+/*  margin-top: 0px;
+  position: relative;
+  background: #5A394E;    
+  box-shadow: 
+    inset 1px 0 0 rgba(255,255,255,.1), 
+    inset -1px 0 0 rgba(255,255,255,.1), 
+    inset 150px 0 150px -150px rgba(255,255,255,.12), 
+    inset -150px 0 150px -150px rgba(255,255,255,.12);
+}
+.top-menu:before,
+.top-menu:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+.top-menu:before {
+  top: 0;
+  border-bottom: 1px dashed rgba(255,255,255,.2);
+}
+.top-menu:after {
+  bottom: 0;
+  border-top: 1px dashed rgba(255,255,255,.2);
+}
+.menu-main {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu-main:before, 
+.menu-main:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 0;
+  top: 8px;
+  border-top: 18px solid #5A394E;
+  border-bottom: 18px solid #5A394E;
+  transform: rotate(360deg);
+  z-index: -1;
+}
+.menu-main:before {
+  left: -30px;
+  border-left: 12px solid rgba(255, 255, 255, 0);
+}
+.menu-main:after {
+  right: -30px;
+  border-right: 12px solid rgba(255, 255, 255, 0);
+}
+.menu-main li {
+  display: inline-block;
+  margin-right: -4px;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  transition: .3s linear;
+}
+.menu-main a.current,
+.menu-main a:hover {background: rgba(0,0,0,.2);}
+@media (max-width: 680px) {
+.top-menu {margin: 0;}
+.menu-main li {
+  display: block;
+  margin-right: 0;
+}
+.menu-main:before, 
+.menu-main:after {content: none;}
+.menu-main a {display: block;}
+}*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+ /* margin: 40px 0 5px;*/
+/*  padding: 25px 0 5px;*/
+padding-top: 10px;
+  text-align: center;
+  background: #5A394E;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: black;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #fff;}
+.menu-main a.current, .menu-main a:hover{color: gray;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: gray;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+.arrow {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-left: 1300px;
+  margin-top: -30px;
+}
+.arrow:after {
+  position: absolute;
+  top: 8px;;
+  left: 8px;
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-left: 3px solid gray;
+  border-bottom: 3px solid gray;
+  transform: rotate(135deg);
+}
