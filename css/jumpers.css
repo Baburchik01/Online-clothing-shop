@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+#header {
+position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 0px;
+background: #020024;
+}
+#body {
+	position: absolute;
+	width: 100%;
+	height: 1220px;
+	left: 0px;
+	top: 100px;
+  background: -webkit-linear-gradient(45deg, rgb(60, 109, 98), rgb(191, 238, 240));
+background: -moz-linear-gradient(45deg, rgb(60, 109, 98), rgb(191, 238, 240));
+background: linear-gradient(45deg, rgb(60, 109, 98), rgb(191, 238, 240));
+ /* background: linear-gradient(#AFD9F7,#F0F2FF);*/
+}
+#footer {
+	position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 1315px;
+background: #020024;
+}
+h1 {
+  color: #fff;
+  padding: 20px;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.i5{
+position: absolute;
+float: left;
+width: 230px;
+height: 300px;
+left: 50px;
+top: 30px;
+}
+.i6{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 300px;
+top: 30px;
+}
+.i7{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 550px;
+top: 30px;
+}
+.i8{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 800px;
+top: 30px;
+}
+.i9{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 1050px;
+top: 30px;
+}
+
+p {
+  text-align: center;
+}
+.text {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 50px;
+top: 330px;
+background: #020024;
+color: white;
+}
+.text1 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 300px;
+top: 330px;
+background: #020024;
+color: white;
+}
+.text2 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 550px;
+top: 330px;
+background: #020024;
+color: white;
+}
+.text3 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 800px;
+top: 330px;
+background: #020024;
+color: white;
+}
+.text4 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 1050px;
+top: 330px;
+background: #020024;
+color: white;
+}
+.p1{
+position: absolute;
+float: left;
+width: 230px;
+height: 300px;
+left: 50px;
+top: 430px;
+}
+.p2{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 300px;
+top: 430px;
+}
+.p3{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 550px;
+top: 430px;
+}
+.p4{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 800px;
+top: 430px;
+}
+.p5{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 1050px;
+top: 430px;
+}
+.text5 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 50px;
+top: 730px;
+background: #020024;
+color: white;
+}
+.text6 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 300px;
+top: 730px;
+background: #020024;
+color: white;
+}
+.text7 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 550px;
+top: 730px;
+background: #020024;
+color: white;
+}
+.text8 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 800px;
+top: 730px;
+background: #020024;
+color: white;
+}
+.text9 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 1050px;
+top: 730px;
+background: #020024;
+color: white;
+}
+.p6{
+position: absolute;
+float: left;
+width: 230px;
+height: 300px;
+left: 50px;
+top: 830px;
+}
+.p7{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 300px;
+top: 830px;
+}
+.p8{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 550px;
+top: 830px;
+}
+.p9{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 800px;
+top: 830px;
+}
+.p10{
+position: absolute;
+width: 230px;
+height: 300px;
+left: 1050px;
+top: 830px;
+}
+.text10 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 50px;
+top: 1130px;
+background: #020024;
+color: white;
+}
+.text11 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 300px;
+top: 1130px;
+background: #020024;
+color: white;
+}
+.text12 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 550px;
+top: 1130px;
+background: #020024;
+color: white;
+}
+.text13 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 800px;
+top: 1130px;
+background: #020024;
+color: white;
+}
+.text14 {
+position: absolute;
+width: 230px;
+height: 70px;
+left: 1050px;
+top: 1130px;
+background: #020024;
+color: white;
+}
+
+.arrow {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-left: 1300px;
+  margin-top: -30px;
+}
+.arrow:after {
+  position: absolute;
+  top: 8px;;
+  left: 8px;
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-left: 3px solid gray;
+  border-bottom: 3px solid gray;
+  transform: rotate(135deg);
+}
